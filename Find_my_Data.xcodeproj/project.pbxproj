@@ -7,11 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F2859EC27AEF891007C1513 /* mobsfscan.yml in Resources */ = {isa = PBXBuildFile; fileRef = 1F2859E727AEF891007C1513 /* mobsfscan.yml */; };
+		1F2859ED27AEF891007C1513 /* github-actions-demo.yml in Resources */ = {isa = PBXBuildFile; fileRef = 1F2859E827AEF891007C1513 /* github-actions-demo.yml */; };
+		1F2859EE27AEF891007C1513 /* gitleaks.yml in Resources */ = {isa = PBXBuildFile; fileRef = 1F2859E927AEF891007C1513 /* gitleaks.yml */; };
+		1F2859EF27AEF891007C1513 /* MobSF.yml in Resources */ = {isa = PBXBuildFile; fileRef = 1F2859EA27AEF891007C1513 /* MobSF.yml */; };
+		1F2859F027AEF891007C1513 /* dependency-check.yml in Resources */ = {isa = PBXBuildFile; fileRef = 1F2859EB27AEF891007C1513 /* dependency-check.yml */; };
 		2607E457258380260067B43A /* LogController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2607E456258380260067B43A /* LogController.swift */; };
 		261E8BD1278126A500572566 /* BiometricController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261E8BD0278126A500572566 /* BiometricController.swift */; };
 		261E8BD3278126E000572566 /* visAuthClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261E8BD2278126E000572566 /* visAuthClass.swift */; };
 		262F4E8C278C65CF0007DC97 /* .github in Resources */ = {isa = PBXBuildFile; fileRef = 262F4E8B278C65CE0007DC97 /* .github */; };
-		2660B43A27942CD9004A90AE /* secret in Resources */ = {isa = PBXBuildFile; fileRef = 2660B43927942CD8004A90AE /* secret */; };
 		26D0ADB024FC841B00A08AD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D0ADAF24FC841B00A08AD7 /* AppDelegate.swift */; };
 		26D0ADB224FC841B00A08AD7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D0ADB124FC841B00A08AD7 /* SceneDelegate.swift */; };
 		26D0ADB424FC841B00A08AD7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D0ADB324FC841B00A08AD7 /* ViewController.swift */; };
@@ -28,11 +32,15 @@
 
 /* Begin PBXFileReference section */
 		05D38366B89A57E8F0848F02 /* Pods-Find_my_Data.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Find_my_Data.debug.xcconfig"; path = "Target Support Files/Pods-Find_my_Data/Pods-Find_my_Data.debug.xcconfig"; sourceTree = "<group>"; };
+		1F2859E727AEF891007C1513 /* mobsfscan.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = mobsfscan.yml; sourceTree = "<group>"; };
+		1F2859E827AEF891007C1513 /* github-actions-demo.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = "github-actions-demo.yml"; sourceTree = "<group>"; };
+		1F2859E927AEF891007C1513 /* gitleaks.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = gitleaks.yml; sourceTree = "<group>"; };
+		1F2859EA27AEF891007C1513 /* MobSF.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = MobSF.yml; sourceTree = "<group>"; };
+		1F2859EB27AEF891007C1513 /* dependency-check.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = "dependency-check.yml"; sourceTree = "<group>"; };
 		2607E456258380260067B43A /* LogController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogController.swift; sourceTree = "<group>"; };
 		261E8BD0278126A500572566 /* BiometricController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiometricController.swift; sourceTree = "<group>"; };
 		261E8BD2278126E000572566 /* visAuthClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = visAuthClass.swift; sourceTree = "<group>"; };
 		262F4E8B278C65CE0007DC97 /* .github */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .github; sourceTree = SOURCE_ROOT; };
-		2660B43927942CD8004A90AE /* secret */ = {isa = PBXFileReference; lastKnownFileType = folder; path = secret; sourceTree = "<group>"; };
 		26D0ADAC24FC841B00A08AD7 /* Find_my_Data.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Find_my_Data.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26D0ADAF24FC841B00A08AD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		26D0ADB124FC841B00A08AD7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -64,11 +72,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F2859E527AEF891007C1513 /* .github */ = {
+			isa = PBXGroup;
+			children = (
+				1F2859E627AEF891007C1513 /* workflows */,
+			);
+			path = .github;
+			sourceTree = "<group>";
+		};
+		1F2859E627AEF891007C1513 /* workflows */ = {
+			isa = PBXGroup;
+			children = (
+				1F2859E727AEF891007C1513 /* mobsfscan.yml */,
+				1F2859E827AEF891007C1513 /* github-actions-demo.yml */,
+				1F2859E927AEF891007C1513 /* gitleaks.yml */,
+				1F2859EA27AEF891007C1513 /* MobSF.yml */,
+				1F2859EB27AEF891007C1513 /* dependency-check.yml */,
+			);
+			path = workflows;
+			sourceTree = "<group>";
+		};
 		26D0ADA324FC841B00A08AD7 = {
 			isa = PBXGroup;
 			children = (
-				2660B43927942CD8004A90AE /* secret */,
 				262F4E8B278C65CE0007DC97 /* .github */,
+				1F2859E527AEF891007C1513 /* .github */,
 				26D0ADAE24FC841B00A08AD7 /* iOS-Shack-v2 */,
 				26D0ADAD24FC841B00A08AD7 /* Products */,
 				EF98644EB0382FCFBFF5E186 /* Pods */,
@@ -145,7 +173,6 @@
 				26D0ADA924FC841B00A08AD7 /* Frameworks */,
 				26D0ADAA24FC841B00A08AD7 /* Resources */,
 				98E65504F7AECBBC7E537A1A /* [CP] Embed Pods Frameworks */,
-				4FEB0FE7B73BD76A790A69F3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -195,35 +222,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F2859EF27AEF891007C1513 /* MobSF.yml in Resources */,
+				1F2859EE27AEF891007C1513 /* gitleaks.yml in Resources */,
 				26D0ADBC24FC841F00A08AD7 /* LaunchScreen.storyboard in Resources */,
 				26D0ADC424FD1AF600A08AD7 /* appstore.png in Resources */,
-				2660B43A27942CD9004A90AE /* secret in Resources */,
 				26D0ADB924FC841F00A08AD7 /* Assets.xcassets in Resources */,
 				26D0ADB724FC841B00A08AD7 /* Main.storyboard in Resources */,
 				262F4E8C278C65CF0007DC97 /* .github in Resources */,
+				1F2859ED27AEF891007C1513 /* github-actions-demo.yml in Resources */,
+				1F2859F027AEF891007C1513 /* dependency-check.yml in Resources */,
+				1F2859EC27AEF891007C1513 /* mobsfscan.yml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		4FEB0FE7B73BD76A790A69F3 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Find_my_Data/Pods-Find_my_Data-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Find_my_Data/Pods-Find_my_Data-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Find_my_Data/Pods-Find_my_Data-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		98E65504F7AECBBC7E537A1A /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -428,7 +442,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C9MEM643RA;
 				INFOPLIST_FILE = "iOS-Shack-v2/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -503,7 +517,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C9MEM643RA;
 				INFOPLIST_FILE = "iOS-Shack-v2/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
